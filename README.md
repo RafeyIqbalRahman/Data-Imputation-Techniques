@@ -11,3 +11,7 @@ As opposed to SimpleImputer, KNNImputer is not a fixed imputation technique. Rat
 
 # IterativeImputer
 This technique is experimental so you can expect to be getting different set of values. The API Reference Guide page suggests that IterativeImputer imputes the data in a 'round-robin' fashion. The API Reference Guide Page can be found here: https://scikit-learn.org/stable/modules/generated/sklearn.impute.IterativeImputer.html
+
+# Missing Value Representation in the Dataset
+
+The dataset used in the code contains missing or null values marked with a question mark '?'.
